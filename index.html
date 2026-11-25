@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How to Use UGC NET Mentor – Step-by-Step Guide</title>
+  <meta name="description" content="A step-by-step guide to UGC NET Mentor (MasterNotes): free unit tests, full mocks, notes previews and plans for UGC NET Paper 1 and CS Paper 2." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: { extend: {
+        colors: { brand: '#4F46E5', accent: '#F59E0B' },
+        fontFamily: { head: ['Poppins', 'sans-serif'], sans: ['Inter', 'sans-serif'] }
+      } }
+    };
+  </script>
+  
+</head>
+<body class="bg-white text-slate-700 font-sans antialiased">
+  <!-- Navbar -->
+  <header class="sticky top-0 z-40 bg-white/90 backdrop-blur border-b border-slate-200">
+    <nav class="max-w-6xl mx-auto px-4 h-16 flex items-center gap-4">
+      <a href="#top" class="font-head font-bold text-lg text-slate-900 shrink-0">
+        <span class="inline-grid place-items-center w-8 h-8 rounded-lg bg-brand text-white mr-1">M</span>UGC NET <span class="text-brand">Mentor</span>
+      </a>
+      <div id="stepNav" class="hidden lg:flex items-center gap-1 overflow-x-auto text-sm ml-auto"></div>
+      <a href="https://ugc-net-master-notes.vercel.app/" target="_blank" rel="noopener" class="ml-auto lg:ml-2 shrink-0 btn-primary !py-2 !px-4 text-sm">Open Site</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="relative overflow-hidden bg-gradient-to-b from-indigo-50 to-white">
+      <div class="max-w-6xl mx-auto px-4 py-16 md:py-24 grid lg:grid-cols-2 gap-12 items-center">
+        <div class="reveal">
+          <p class="text-sm font-semibold tracking-widest text-brand uppercase">Paper 1 · All 10 Units · CS Paper 2</p>
+          <h1 class="mt-3 font-head font-extrabold text-4xl md:text-5xl leading-tight text-slate-900">
+            Crack UGC NET with <span class="text-brand">UGC NET Mentor</span>
+          </h1>
+          <p class="mt-5 text-lg text-slate-600">Short unit-wise notes, 800 exam-pattern questions and timed tests that feel like the real NTA exam. Start with free tests, no sign-up needed.</p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="https://ugc-net-master-notes.vercel.app/" target="_blank" rel="noopener" class="btn-primary">Start Learning Free →</a>
+            <a href="#guide" class="btn-ghost">See how it works</a>
+          </div>
+          <ul class="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-sm text-slate-600">
+            <li>✅ No Sign-Up for Free Tests</li><li>⏱ 20 Questions · 25 Minutes</li><li>📖 Explanation for Every Answer</li>
+          </ul>
+        </div>
+        <div class="reveal">
+          <div class="laptop">
+            <div class="laptop-screen">
+              <img data-shot="01-home.png" fetchpriority="high" alt="UGC NET Mentor home page with Start Free Test and See Plans buttons" class="zoomable w-full block" />
+            </div>
+            <div class="laptop-base"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why -->
+    <section id="why" class="max-w-6xl mx-auto px-4 py-20">
+      <div class="text-center max-w-2xl mx-auto reveal">
+        <h2 class="section-title">Why UGC NET Mentor</h2>
+        <p class="mt-3 text-slate-600">Built around how NTA actually sets Paper 1, by Prof. Shridhar Chavan, who has taught it for years.</p>
+      </div>
+      <div id="features" class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+    </section>
+
+    <!-- Steps -->
+    <section id="guide" class="bg-slate-50 py-20">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="text-center max-w-2xl mx-auto reveal">
+          <h2 class="section-title">Step-by-Step Guide</h2>
+          <p class="mt-3 text-slate-600">Follow these steps in order, from your first free test to unlocking the full course. Click any screenshot to zoom in.</p>
+        </div>
+        <div id="steps" class="mt-16 space-y-24"></div>
+      </div>
+    </section>
+
+    <!-- Mobile -->
+    <section id="mobile" class="max-w-6xl mx-auto px-4 py-20">
+      <div class="text-center max-w-2xl mx-auto reveal">
+        <h2 class="section-title">Study on Your Phone</h2>
+        <p class="mt-3 text-slate-600">The tests are built for phones, and the notes reader works on any phone, tablet or laptop. Open the ☰ menu for every page.</p>
+      </div>
+      <div id="phones" class="mt-12 grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8"></div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="bg-slate-50 py-20">
+      <div class="max-w-3xl mx-auto px-4">
+        <h2 class="section-title text-center reveal">Frequently Asked Questions</h2>
+        <div id="faqList" class="mt-10 space-y-3"></div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="max-w-6xl mx-auto px-4 py-20">
+      <div class="reveal rounded-3xl bg-brand text-white p-10 md:p-14 text-center relative overflow-hidden">
+        <div class="absolute -top-16 -right-16 w-56 h-56 rounded-full bg-accent/30"></div>
+        <h2 class="relative font-head font-bold text-3xl md:text-4xl">Ready when you are</h2>
+        <p class="relative mt-3 text-indigo-100 max-w-xl mx-auto">Take your first timed unit test in 25 minutes and see exactly where you stand.</p>
+        <a href="https://ugc-net-master-notes.vercel.app/" target="_blank" rel="noopener" class="relative mt-8 inline-block rounded-xl bg-accent px-8 py-3.5 font-semibold text-slate-900 shadow-lg hover:brightness-105 transition">Start Learning Free →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-200 py-8 text-center text-sm text-slate-500">
+    <p>Guide for <a class="text-brand font-medium hover:underline" href="https://ugc-net-master-notes.vercel.app/" target="_blank" rel="noopener">ugc-net-master-notes.vercel.app</a> · © 2026 Prof. Shridhar Chavan</p>
+  </footer>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="fixed inset-0 z-50 hidden items-center justify-center bg-slate-900/90 p-4" role="dialog" aria-modal="true" aria-label="Screenshot preview">
+    <button id="lbClose" class="absolute top-4 right-5 text-white text-4xl leading-none" aria-label="Close">&times;</button>
+    <img id="lbImg" alt="" class="max-h-[90vh] max-w-full rounded-lg shadow-2xl" />
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

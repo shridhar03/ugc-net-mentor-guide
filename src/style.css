@@ -1,0 +1,25 @@
+h1, h2, h3 { font-family: 'Poppins', sans-serif; }
+.section-title { font-family: 'Poppins', sans-serif; font-weight: 700; font-size: clamp(1.75rem, 3vw, 2.25rem); color: #0f172a; }
+.btn-primary { display: inline-block; border-radius: .75rem; background: #4F46E5; color: #fff; font-weight: 600; padding: .85rem 1.6rem; box-shadow: 0 10px 25px -10px #4F46E5; transition: transform .2s, background .2s; }
+.btn-primary:hover { background: #4338CA; transform: translateY(-1px); }
+.btn-ghost { display: inline-block; border-radius: .75rem; border: 1px solid #c7d2fe; color: #4F46E5; font-weight: 600; padding: .85rem 1.6rem; transition: background .2s; }
+.btn-ghost:hover { background: #eef2ff; }
+
+/* Scroll reveal */
+.reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s ease; }
+.reveal.from-left { transform: translateX(-32px); }
+.reveal.from-right { transform: translateX(32px); }
+.reveal.show { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } }
+
+/* Laptop mockup */
+.laptop-screen { border: 12px solid #1e293b; border-bottom-width: 18px; border-radius: 1rem 1rem 0 0; background: #1e293b; overflow: hidden; box-shadow: 0 30px 60px -20px rgba(30, 27, 75, .45); }
+.laptop-base { height: 14px; margin: 0 -6%; background: linear-gradient(#cbd5e1, #94a3b8); border-radius: 0 0 1rem 1rem; }
+
+/* Phone frame */
+.phone { border: 10px solid #0f172a; border-radius: 2.25rem; overflow: hidden; background: #0f172a; box-shadow: 0 25px 50px -20px rgba(15, 23, 42, .5); position: relative; }
+.phone::before { content: ''; position: absolute; top: 6px; left: 50%; width: 32%; height: 14px; transform: translateX(-50%); background: #0f172a; border-radius: 999px; z-index: 1; }
+
+.zoomable { cursor: zoom-in; }
+.step-num { background: linear-gradient(135deg, #4F46E5, #6366F1); }
+details[open] summary .chev { transform: rotate(45deg); }
