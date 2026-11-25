@@ -1,6 +1,6 @@
-# UGC NET Mentor – How to Use Guide
+# MasterNotes UGC NET – How to Use Guide
 
-A single-page promotional guide for [UGC NET Mentor](https://ugc-net-master-notes.vercel.app/), built with Vite, vanilla JS and Tailwind (CDN). No backend.
+A single-page promotional guide for [MasterNotes UGC NET](https://ugc-net-master-notes.vercel.app/), built with Vite, vanilla JS and Tailwind (CDN). No backend.
 
 Screenshots in `public/screenshots/` were captured from the live site with Playwright (desktop 1280×800, mobile 390×844).
 

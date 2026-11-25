@@ -13,7 +13,7 @@ const features = [
 
 const steps = [
   { id: 'home', img: '01-home.png', title: 'Open the site and start free',
-    text: 'Go to UGC NET Mentor. Click <b>Start Free Test →</b> to jump straight into a unit test, or <b>See Plans from ₹249</b> to compare plans.',
+    text: 'Go to MasterNotes UGC NET. Click <b>Start Free Test →</b> to jump straight into a unit test, or <b>See Plans from ₹249</b> to compare plans.',
     tip: 'Free tests need no sign-up, so you can try one right now.' },
   { id: 'syllabus', img: '02-syllabus.png', title: 'Check the syllabus',
     text: 'Click <b>Syllabus</b> in the menu. Every one of the 10 units lists its sub-topics, with a <b>Free preview</b> and a <b>Free test</b> button.',
@@ -54,7 +54,7 @@ const phones = [
 ];
 
 const faqs = [
-  ['Is UGC NET Mentor free to use?', 'You can start free. The Test Series page marks free unit tests in every unit and full Mocks 1–3 as FREE, and every unit has free preview pages of the notes. The full notes, handbook and remaining tests are paid plans.'],
+  ['Is MasterNotes UGC NET free to use?', 'You can start free. The Test Series page marks free unit tests in every unit and full Mocks 1–3 as FREE, and every unit has free preview pages of the notes. The full notes, handbook and remaining tests are paid plans.'],
   ['Do I need to sign up to take a test?', 'No. Free tests need no sign-up. Without an account your score is saved on that device only; create a free account to keep scores across devices.'],
   ['What does each plan cost?', 'At launch prices: Theory Handbook ₹249, MasterNotes Course ₹399, Combo (all 40 tests + MasterNotes) ₹499 and Computer Science MasterNotes ₹749. Every plan gives 1-year access.'],
   ['How do I pay and when does access open?', 'Pay by UPI with Google Pay or PhonePe and enter your 12-digit UTR. Access opens once the payment is confirmed, usually within a few hours (9 AM–9 PM) and always within 24 hours, with a receipt and invoice by email.'],
